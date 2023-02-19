@@ -345,13 +345,32 @@
                                         </svg>
                                     </a></li>
                             </ul>
-               </div>
+                            </div>
+                    <div class="mail">
+                            <p class="mail-title">Subscribe</p>
+                                <form class="mail-form">
+                                <input
+                                name="mail-input"
+                                    type="email"
+                                    placeholder="E-mail"
+                                    required
+                                    class="mail-input"/>
+                                    <button type="submit" class="mail-sub">
+                                    <span class="mail-sub-text">Subscribe</span>
+                                <svg class="mail-sub-icon" width="24" height="24">
+                                <use href="./images/symbol-defs.svg#icon-Frame"></use>
+                                </svg>
+                                </button>
+                                </form>
+                     </div>
+      </div>
           </div>
       </div>
 </footer>
-<div class="backdrop " data-modal>
+
+<div class="backdrop is-hidden " data-modal>
     <div class="modal">
-        <button class="modal-close" data-modal-close type="button">
+        <button class="modal-close" data-modal-close  type="button">
             <a href="" class="modal-soc-link">
                 <svg class="modal-soc-icon" width="8", height="8">
                     <use href="./images/symbol-defs.svg#icon-close-black"></use>                
@@ -419,16 +438,16 @@
                </div>
                <div class="modal-field ">
                     <input 
-                    class="modal-check"
+                    class="modal-check  visually-hidden "
                     type="checkbox"
                     name="policy"
                     id="policy"
                     value="true"
                     required>
-                    <div class="check-policy ">
-                        <label for="policy" class="check-text"> I accept the terms and conditions of the   
-                            <a href="№"><span class="policy"> Privacy Policy </span><a></label>
-                    </div>
+                        <label for="policy" class="check-text">
+                             I accept the terms and conditions of the  &nbsp; 
+                            <a href=""><span class="policy"> Privacy Policy </span><a></label>
+                    
                </div>
                 <button  class="button-modal" type="submit">Send</button>
              </form>
