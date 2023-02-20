@@ -791,6 +791,7 @@ padding-bottom: 120px;
     outline: transparent;
     color:#000;
 }
+
 .modal-input::placeholder{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -801,18 +802,21 @@ padding-bottom: 120px;
     color: rgba(117, 117, 117, 0.5);
 
 }
-.modal-input:focus,
+
+.modal-input:focus{
+    border-color: #404BBF;
+}
+
+.modal-input:focus + .modal-input-icon{
+    fill: #404BBF;
+}
 .modal-comment:focus{
     border-color: #404BBF;
 }
-.modal-input:focus,
-.modal-comment:focus + .modal-input-icon{
-    fill: #404BBF;
-}
-
 .input-wrap{
     position: relative;
 }
+
 .modal-input-text{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
