@@ -802,6 +802,7 @@ padding-bottom: 120px;
     color: rgba(117, 117, 117, 0.5);
 
 }
+
 .modal-input:focus{
     border-color: #404BBF;
 }
@@ -812,7 +813,6 @@ padding-bottom: 120px;
 .modal-comment:focus{
     border-color: #404BBF;
 }
-
 
 
 .input-wrap{
